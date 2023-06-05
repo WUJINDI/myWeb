@@ -1,3 +1,4 @@
+<!-- 键盘demo -->
 <template>
   <div id="app">
     <div class="keyboardBox">
