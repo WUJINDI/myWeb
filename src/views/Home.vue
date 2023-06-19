@@ -3,22 +3,29 @@
     <div class="btnBox">
       <router-link to="/keyboard">
         <div class="btnClass">
-        <img src="@/assets/logo.png" />
-      </div>
+          <img src="@/assets/logo.png" />
+        </div>
       </router-link>
-
+      <router-link to="/knowledgegraph">
+        <div class="btnClass">
+          <img src="@/assets/logo.png" />
+        </div>
+      </router-link>
+      <router-link to="/kghome">
+        <div class="btnClass">
+          <img src="@/assets/logo.png" />
+        </div>
+      </router-link>
     </div>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style scoped>
-#app{
+#app {
   background-color: rgb(242, 240, 238);
 }
 .btnBox {
@@ -46,10 +53,7 @@ img {
 }
 .btnClass:hover {
   cursor: pointer;
-  box-shadow: 0 0 0 rgb(219, 219, 219),
-  0 0 0 rgba(255, 255, 255, 0.7),
-  inset 18px 18px 30px rgba(187, 187, 187,0.3),
-  inset -18px -18px 30px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0 rgb(219, 219, 219), 0 0 0 rgba(255, 255, 255, 0.7), inset 18px 18px 30px rgba(187, 187, 187, 0.3), inset -18px -18px 30px rgba(255, 255, 255, 0.5);
 }
 .btnClass:hover img {
   width: 58px;

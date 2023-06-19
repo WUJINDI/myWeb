@@ -313,6 +313,7 @@ export default {}
   font-size: 15px;
   transition: all 0.2s ease-out;
 }
+
 .downBoard {
   margin-top: 20px;
   display: flex;
