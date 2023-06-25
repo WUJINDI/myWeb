@@ -84,7 +84,8 @@ export default {
           name: word,
           //  value: count,
           // value: 300,
-          symbolSize: word === this.subjectName ? 300 : 20, // 支持度越大，节点越大
+          // symbolSize: word === this.subjectName ? 300 : 20, // 支持度越大，节点越大
+          symbolSize: word === '人工智能' ? 300 : word === '数学' ? 200 : word === '艺术' ? 200 : word === '信息技术' ? 200 : 20, // 支持度越大，节点越大
         }
 
         formattedOccurrences.push(formattedOccurrence)

@@ -3,17 +3,12 @@
     <div class="btnBox">
       <router-link to="/keyboard">
         <div class="btnClass">
-          <img src="@/assets/logo.png" />
-        </div>
-      </router-link>
-      <router-link to="/knowledgegraph">
-        <div class="btnClass">
-          <img src="@/assets/logo.png" />
+          <img src="@/assets/键盘.png" />
         </div>
       </router-link>
       <router-link to="/kghome">
         <div class="btnClass">
-          <img src="@/assets/logo.png" />
+          <img src="@/assets/企业图谱.png" />
         </div>
       </router-link>
     </div>

@@ -19,11 +19,6 @@ const routes = [
     component: () => import('@/components/works/keyboard.vue'),
   },
   {
-    path: '/knowledgegraph',
-    name: 'KnowledgeGraph',
-    component: () => import('@/components/works/knowledgeGraph.vue'),
-  },
-  {
     path: '/kghome',
     name: 'KGHome',
     component: () => import('@/components/works/knowledgeGraph/KGHome.vue'),
@@ -42,6 +37,16 @@ const routes = [
         path: 'kgofit',
         name: 'KGOfIT',
         component: () => import('@/components/works/knowledgeGraph/KGOfIT.vue'),
+      },
+      {
+        path: 'kgoftheme',
+        name: 'KGOfTheme',
+        component: () => import('@/components/works/knowledgeGraph/KGOfTheme.vue'),
+      },
+      {
+        path: 'kgoftheme2',
+        name: 'KGOfTheme2',
+        component: () => import('@/components/works/knowledgeGraph/KGOfTheme2.vue'),
       },
     ],
   },
